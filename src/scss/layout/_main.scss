@@ -1,0 +1,50 @@
+// Main
+main {
+    margin-top: 76px;
+    font-family: $font-primary-regular;
+    .wemakeawesomethings {
+        background-color: $color-white;
+        text-transform: uppercase;
+        .leftcode {
+            animation-name: moveCodeInRight;
+            animation-duration: 3s;
+            animation-delay: 0;
+            animation-fill-mode: backwards;
+            opacity: .5;
+            display: block;
+            position: absolute;
+            top: 40%;
+            right: 0;
+            font-size: 6rem;
+        }
+        .moveInBottom-box {
+            height: 60vh;
+            animation-name: moveInBottom;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-fill-mode: backwards;
+            h1 {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                font-size: 3.5rem;
+                color: #383c40;
+                width: 75%;
+            }
+        }
+        .rightcode {
+            animation-name: moveCodeInLeft;
+            animation-duration: 3s;
+            animation-delay: 0;
+            animation-fill-mode: backwards;
+            opacity: .5;
+            display: block;
+            position: absolute;
+            top: 40%;
+            left: 0;
+            font-size: 6rem;
+        }
+    }
+}

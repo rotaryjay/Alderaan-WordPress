@@ -1,0 +1,30 @@
+/*
+Theme Name: Alderaan Bootstrap Theme
+Author: Wiles Jackson Inc.
+Author URI: http://wilesjackson.com
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+template: 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/typography";
+@import "base/animations";
+
+@import "layout/layout";
+@import "layout/nav";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/modals";
+
+@import "components/sections";
+@import "components/buttons";

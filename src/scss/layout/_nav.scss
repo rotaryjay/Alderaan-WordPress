@@ -1,0 +1,30 @@
+// Nav
+
+nav {
+    &.navbar {
+        background-color: $color-white;
+        box-shadow: 0 0 1rem rgba($color-black, 0.5);
+        font-family: $font-primary-regular;
+        .FullLogo {
+            display: block;
+            @include respond(tab-land) {
+                display: none;
+            }
+        }
+        .SmallLogo {
+            display: none;
+            @include respond(tab-land) {
+                display: block;
+            }
+        }
+        .navbar-brand {
+            &.moveInLeft {
+                animation-name: moveInLeft;
+                animation-duration: 1s;
+                animation-delay: 0;
+                animation-fill-mode: backwards;
+            }
+        }
+    }
+}
+

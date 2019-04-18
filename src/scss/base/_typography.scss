@@ -1,0 +1,22 @@
+@font-face {
+    font-family: IndustryBook;
+    src: url("fonts/Industry Book.otf") format("opentype");
+}
+@font-face {
+    font-family: IndustryBookDemi;
+    src: url("fonts/Industry Demi.otf") format("opentype");
+}
+@font-face {
+    font-family: IndustryBookBold;
+    src: url("fonts/Industry Bold.otf") format("opentype");
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
